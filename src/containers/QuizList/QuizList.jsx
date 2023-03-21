@@ -13,6 +13,7 @@ export default class QuizList extends Component {
   renderQuizes() {
     console.log("quizes.map: ", this.state.quizes)
     return this.state.quizes.map((quiz) => {
+      console.log("quiz: ", quiz.id)
       return (
         <li key={quiz.id}>
           <NavLink to={"/quiz/" + quiz.id}>{quiz.name}</NavLink>

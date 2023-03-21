@@ -4,7 +4,8 @@
   padding: 100px;
   flex-grow: 1;
   width: 100%;
-  background: linear-gradient(90deg, #fd8355 0%, #f0576c 37%, #f79cbd 100%);
+  /* background: linear-gradient(90deg, #fd8355 0%, #f0576c 37%, #f79cbd 100%); */
+  background: linear-gradient(270deg, #cef2fa 0%, #59bfef 100%);
 }
 
 .QuizList h1 {
